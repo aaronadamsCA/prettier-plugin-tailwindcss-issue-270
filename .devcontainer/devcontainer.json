@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:1",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode"]
+    }
+  }
+}
