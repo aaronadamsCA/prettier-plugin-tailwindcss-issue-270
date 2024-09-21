@@ -1,17 +1,21 @@
 {
   "name": "my-app",
   "type": "module",
+  "imports": {
+    "#tailwind.css": "./tailwind.css"
+  },
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "4.0.0-alpha.18",
+    "@tailwindcss/vite": "4.0.0-alpha.23",
     "@vitejs/plugin-react": "4.3.1",
-    "tailwindcss": "4.0.0-alpha.18",
-    "vite": "5.3.5"
+    "tailwindcss": "4.0.0-alpha.23",
+    "vite": "5.4.7"
   }
 }
